@@ -20,7 +20,7 @@ const projects: Project[] = [
     description:
       "A complete furniture selling platform with admin dashboard, category filters, and smooth UI.",
     tags: ["React", "Admin Dashboard", "Marketplace"],
-    image: "/Project1.png",
+    image: "/project1.png",
     link: "https://e-commerce-sanity-seven.vercel.app/"
   },
   {
