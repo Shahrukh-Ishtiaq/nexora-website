@@ -28,7 +28,7 @@ const projects: Project[] = [
     description:
       "A responsive, minimal, and conversion-focused Blogging website built with Next.js + Sanity CMS for a historical theme.",
     tags: ["Next.js", "Sanity CMS", "Blogging"],
-    image: "/Project2.png",
+    image: "/project2.png",
     link: "https://monument-blog.vercel.app/"
   },
   {
@@ -36,7 +36,7 @@ const projects: Project[] = [
     description:
       "A clean weather UI dashboard designed with React + Tailwind CSS, focusing on latest weather updates.",
     tags: ["React", "Tailwind CSS", "Analytics"],
-    image: "/Project3.png",
+    image: "/project3.png",
     link: "https://weather-now-ivory.vercel.app/"
   }
 ];
