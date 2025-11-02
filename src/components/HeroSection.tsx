@@ -1,6 +1,7 @@
 "use client";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -65,15 +66,18 @@ export default function Home() {
           {/* 🔘 Buttons */}
           <div className="md:flex md:space-x-4">
             {/* Get Started Button */}
-            <button className="mt-6 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-blue-600 hover:to-cyan-500 rounded-full text-white text-lg font-medium shadow-lg hover:shadow-xl transition duration-300 flex items-center group">
-              Get Started
-              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </button>
-
+            <Link href="#contact">
+              <button className="mt-6 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-blue-600 hover:to-cyan-500 rounded-full text-white text-lg font-medium shadow-lg hover:shadow-xl transition duration-300 flex items-center group">
+                Get Started
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </button>
+            </Link>
             {/* View Services Button */}
-            <button className="mt-6 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-blue-600 hover:to-cyan-500 rounded-full text-white text-lg font-medium shadow-lg hover:shadow-xl transition duration-300">
-              View Services
-            </button>
+            <Link href="#services">
+              <button className="mt-6 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-blue-600 hover:to-cyan-500 rounded-full text-white text-lg font-medium shadow-lg hover:shadow-xl transition duration-300 ">
+                View Services
+              </button>
+            </Link>
           </div>
         </div>
       </div>

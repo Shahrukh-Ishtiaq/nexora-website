@@ -35,10 +35,10 @@ export default function Footer() {
         {/* Right side - Social Icons */}
         <div className="flex justify-center md:justify-end gap-4">
           {[
-            { icon: Facebook, link: "https://facebook.com" },
-            { icon: Instagram, link: "https://instagram.com" },
+            { icon: Facebook, link: "https://www.facebook.com/profile.php?id=61576098004042" },
+            { icon: Instagram, link: "https://www.instagram.com/nex.orastudio" },
             { icon: Linkedin, link: "https://linkedin.com/in/shahrukh-ishtiaq-2534a524b" },
-            { icon: Github, link: "https://github.com" },
+            { icon: Github, link: "https://github.com/Shahrukh-Ishtiaq" },
           ].map(({ icon: Icon, link }, i) => (
             <a
               key={i}
